@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  line-height: 1.9;
+  color: #444;
+  background-color: #f3f3f3;
+}
+
+.nav {
+  background-color: black;
+
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  padding: 0 6rem;
+  z-index: 100;
+}
+
+
+.nav__links {
+  max-width: 75%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav__item {
+  margin-left: 4rem;
+  color: #fff;
+
+}
+
+
+.section--1 {
+  padding: 40px 100px;
+  margin-top: 100px;
+  margin-left: 100px;
+  max-width: 75%;
+  
+}
+
+.main-title {
+  line-height: 4rem;
+}
+
+.main-title--1 {
+  font-size: 2rem;
+}
+
+.main-title--2 {
+  font-size: 4rem;
+}
+
+
+.main-intro {
+  margin-top: 2rem;
+}
